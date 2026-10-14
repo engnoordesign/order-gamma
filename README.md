@@ -57,3 +57,7 @@ The app then uses Claude automatically. Add `GAMMA_BACKEND=ollama` to force Olla
 ## License
 
 MIT
+
+## Run in GitHub Codespaces
+
+Open the repo on GitHub, choose **Code → Codespaces → Create codespace on main**. The dev container installs Ollama, downloads the model and starts the app on port 3000 (first start takes several minutes). Codespaces have no GPU, so analysis is slow; set `ANTHROPIC_API_KEY` as a Codespaces secret to use the Claude backend instead.
