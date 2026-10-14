@@ -1,0 +1,6 @@
+.env
+node_modules/
+*.log
+# never commit documents used for testing
+test-*.pdf
+*.pdf

@@ -1,0 +1,8 @@
+{
+  "name": "order-gamma",
+  "version": "0.1.0",
+  "description": "Order Gamma phase 1: AI check of a file or photo against a list of requirements, with text extraction. Runs locally with Ollama; optional Claude backend.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "license": "MIT"
+}
