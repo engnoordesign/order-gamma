@@ -18,6 +18,13 @@ For each requirement you get Found / Missing, the extracted value, a confidence 
 
 No `npm install` is needed. The app has no dependencies.
 
+## Windows: one-click setup and start
+
+1. Double-click **Setup.bat** (it installs Node.js and Ollama with winget if missing, downloads the model, and puts two icons on your Desktop: **Order Gamma** and **Order Gamma - Setup**).
+2. From then on, double-click the **Order Gamma** icon. It starts the app and opens http://localhost:3000. Close the black window to stop it.
+
+If you move the folder, run Setup.bat again so the icons point to the new place.
+
 ## Supported files
 
 | File | Ollama (default) | Claude backend |
